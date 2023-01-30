@@ -46,7 +46,7 @@ for line in networks:
                 print('\nScanning',colored(line[:-1],'blue'),'for the Domain Controllers')
                 printbanner()
         elif args.network != 'none':
-                print('\nScanning',colored(line),'blue'),'for the Domain Controllers')
+                print('\nScanning',colored(line,'blue'),'for the Domain Controllers')
                 printbanner()
 
         #set the nmap command
